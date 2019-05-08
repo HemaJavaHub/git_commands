@@ -3,8 +3,6 @@ Git Commands
 
 _A list of commonly used Git commands_
 
---
-
 ### Getting & Creating Projects
 
 | Command | Description |
@@ -18,7 +16,12 @@ _A list of commonly used Git commands_
 | ------- | ----------- |
 | `git status` | Check status |
 | `git add [file-name.txt]` | Add a file to the staging area |
-| `git add -A` | Add all new and changed files to the staging area |
+| `git add -A` | Stage all (new, modified, deleted) files |
+| `git add .` | Same as `git add -A` |
+| `git add --ignore_removal .` | Stage all (new, modified) files |
+| `git add -u` | Stage all (modified, deleted) files |
+| `git reset HEAD <filename>` | Unstage specified file |
+| `git reset HEAD` | Unstage all staged files |
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
 
