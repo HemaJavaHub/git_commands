@@ -1,7 +1,7 @@
 Git Commands
 ============
 
-_A list of commonly used Git commands_
+_A list of commonly used Git commands for git V2.0+_
 
 ### Getting & Creating Projects
 
